@@ -99,13 +99,13 @@ span{
 
 .home-img{
     border-right: solid 0.5rem var(--main-color);
-    border-bottom: solid 0.5rem var(--main-color);
+    border-bottom : solid 0.5rem var(--main-color);
     border-image: linear-gradient(135deg,transparent 60%,var(--main-color))1;
 }
 
 .about-img{
-    border-left: solid 0.6rem var(--main-color);
-    border-bottom: solid 0.6rem var(--main-color);
+    border-left: solid 0.5rem var(--main-color);
+    border-bottom: solid 0.5rem var(--main-color);
     border-image: linear-gradient(225deg,transparent 60%,var(--main-color))1;
 }
 
@@ -511,7 +511,7 @@ footer{
 @media (min-width: 1200px) {
 
     .home-img, .about-img {
-        max-width: 25%;
+        max-width: 20%;
     }
 
     .home-content h1{
